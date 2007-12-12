@@ -13,7 +13,7 @@ Patch0:		%{name}-1.30-c-fixes.patch.bz2
 Group:		System/X11
 License:	BSD
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	XFree86-devel
+BuildRequires:	X11-devel
 # for rman
 BuildRequires:	xorg-x11
 
