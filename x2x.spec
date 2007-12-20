@@ -12,7 +12,7 @@ Source1:	Makefile-%{name}.bz2
 Patch0:		%{name}-1.30-c-fixes.patch.bz2
 Group:		System/X11
 License:	BSD
-BuildRequires:	X11-devel
+BuildRequires:	X11-devel imake
 # for rman
 BuildRequires:	xorg-x11
 
