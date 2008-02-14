@@ -11,6 +11,7 @@ Source0:	ftp://digital.com/pub/Digital/SRC/%{name}/%{name}-%{version}-beta.tar.b
 Source1:	Makefile-%{name}.bz2
 Patch0:		%{name}-1.30-c-fixes.patch.bz2
 Group:		System/X11
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	BSD
 BuildRequires:	X11-devel imake
 # for rman
