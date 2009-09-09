@@ -1,6 +1,6 @@
 %define	name	x2x
 %define version 1.30
-%define release %mkrel 0.beta.4
+%define release %mkrel 0.beta.5
 
 Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
