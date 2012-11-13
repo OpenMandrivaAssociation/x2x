@@ -1,0 +1,12 @@
+diff -p -up x2x-1.30-beta/x2x.c.strfmt x2x-1.30-beta/x2x.c
+--- x2x-1.30-beta/x2x.c.strfmt	2009-12-05 17:39:36.000000000 +0100
++++ x2x-1.30-beta/x2x.c	2009-12-05 17:40:05.000000000 +0100
+@@ -622,7 +622,7 @@ char **argv;
+       if (++arg >= argc) Usage();
+       triggerw = atoi(argv[arg]);
+     } else if (!strcasecmp(argv[arg], "-copyright")) {
+-      printf(lawyerese);
++      printf("%s", lawyerese);
+     } else {
+       Usage();
+     } /* END if... */
