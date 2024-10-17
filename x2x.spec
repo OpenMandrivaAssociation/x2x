@@ -6,7 +6,7 @@ Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-URL:		http://freshmeat.net/projects/%{name}/
+URL:		https://freshmeat.net/projects/%{name}/
 Source0:	ftp://digital.com/pub/Digital/SRC/%{name}/%{name}-%{version}-beta.tar.bz2
 Source1:	Makefile-%{name}.bz2
 Patch0:		%{name}-1.30-c-fixes.patch.bz2
