@@ -1,6 +1,6 @@
 %define	name	x2x
 %define version 1.30
-%define release %mkrel 0.beta.7
+%define release 1
 
 Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
@@ -79,10 +79,10 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Jan 18 2006 Lenny Cartier <lenny@mandriva.com> 1.30-0.beta.3mdk
 - fix x86_64 build
 
-* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 1.30-0.beta.2mdk
+* Thu Jun 02 2005 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 1.30-0.beta.2mdk
 - Rebuild
 
-* Sun Jan 04 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.30-0.beta.1mdk
+* Sun Jan 04 2004 Per ï¿½yvind Karlsen <peroyvind@linux-mandrake.com> 1.30-0.beta.1mdk
 - 1.30-beta
 - rm -rf $RPM_BUILD_ROOT at the beginning of %%install
 - cosmetics
